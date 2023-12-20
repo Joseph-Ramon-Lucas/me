@@ -1,0 +1,23 @@
+#contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#linkList {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#linkList ul {
+    border: red 1px solid;
+    flex-direction: column;
+}
+
+
+#logo img {
+    width: 100px;
+    height: 100px;
+    
+}
