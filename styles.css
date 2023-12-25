@@ -76,28 +76,37 @@ body {
     text-decoration: none;
 
 }
-#linkList ul li a {
+#linkList ul a li {
     text-decoration: none;
     word-wrap: normal;
+    transition: all ease-in .5s;
     
 }
-#linkList ul li a:link {
-    text-decoration: none;
-    color:burlywood
-}
-#linkList ul li a:visited {
+#linkList ul a:link, a:visited li {
     text-decoration: none;
     color:burlywood
 }
 
-#linkList ul li a:hover {
+#linkList ul a:hover li {
     text-decoration: none;
-    color:burlywood
+    color:black;
+    background-color: white;
+
+    transition: all ease-out .5s;
+
+    font-size: 20px;
+    font-weight:bold;
+    
 }
-#linkList ul li a:active {
+#linkList ul a:active li {
     text-decoration: none;
-    color:burlywood
+    color:black;
+    background-color: white;
+
+    
+    
 }
+
 
 
 
