@@ -58,13 +58,14 @@ li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* padding: 0; */
+    
 }
 
 #buttonDiv ul li{
 
     text-decoration: none;
     padding: 50px;
+    
 }
 
 #buttonDiv ul li button {
@@ -90,6 +91,7 @@ li {
 
 #socialsButton:hover {
     background:rgb(222, 184, 135);
+    border:rgb(222, 184, 135);
     color: black;
     transition: all ease-out .5s;
     font-size: 20px;
@@ -108,7 +110,7 @@ li {
 
 #aboutButton:hover {
     background:rgb(158, 222, 135);
-    border: 2px solid rgb(158, 222, 135);
+    border:  rgb(158, 222, 135);
     color: black;
     font-size: 20px;
     font-weight: bold;
