@@ -97,6 +97,7 @@ li {
     font-size: 20px;
     font-weight: bold;
     box-shadow: -1px 6px 2px 0 rgba(222, 184, 135, 0.7);
+    cursor: pointer;
 
 }
 
@@ -116,6 +117,7 @@ li {
     font-weight: bold;
     transition: all ease-out .5s;
     box-shadow: -1px 6px 2px 0 rgba(158, 222, 135, 0.7);
+    cursor: pointer;
 
 }
 
