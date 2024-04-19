@@ -58,6 +58,8 @@ li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+
     
 }
 
@@ -98,7 +100,17 @@ li {
     font-weight: bold;
     box-shadow: -1px 6px 2px 0 rgba(222, 184, 135, 0.7);
     cursor: pointer;
+}
 
+#socialsButton.isActive{
+    background:rgb(222, 184, 135);
+    border:rgb(222, 184, 135);
+    color: black;
+    /* transition: all ease-out .5s; */
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -1px 6px 2px 0 rgba(222, 184, 135, 0.7);
+    cursor: pointer;
 }
 
 #aboutButton {
@@ -128,6 +140,7 @@ li {
 
 
 #linkDiv {
+    /* display: none; */
     width: 100%;
 }
 
