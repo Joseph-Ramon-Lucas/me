@@ -7,10 +7,10 @@ let socialSelect = true;
 let aboutSelect = false;
 
 
-if (document.URL.includes("about.html")){
+if (document.URL.includes("about")){
     about.classList.toggle("isActive");
 }
-else if (document.URL.includes("index.html")) {
+else if (document.URL.includes("index")) {
     socials.classList.toggle("isActive");
 }
 
