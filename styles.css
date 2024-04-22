@@ -94,7 +94,7 @@ li {
 #socialsButton:hover,
 #socialsButton.isActive  {
     background:rgb(222, 184, 135);
-    border:rgb(222, 184, 135);
+    border:rgb(222, 184, 135) 2px solid;
     color: black;
     transition: all ease-out .5s;
     font-size: 20px;
@@ -115,7 +115,7 @@ li {
 #aboutButton:hover,
 #aboutButton.isActive {
     background:rgb(158, 222, 135);
-    border:  rgb(158, 222, 135);
+    border:  rgb(158, 222, 135) 2px solid;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -134,6 +134,7 @@ li {
 #linkDiv {
     /* display: none; */
     width: 100%;
+    /* max-height: 50vh; */
 }
 
 #linkDiv ul {
@@ -201,7 +202,7 @@ li {
     border: rgb(158, 222, 135) 2px solid;
     border-radius: 30px;
     box-shadow: 0 0 30px 0 rgb(158, 222, 135, 1);
-    padding: 20px;
+    padding: 5%;
     
 
 }
